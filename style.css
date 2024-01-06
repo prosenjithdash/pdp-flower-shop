@@ -52,6 +52,11 @@ header{
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
+    
+}
+.f-c{
+    margin-top: 178px;
+    margin-bottom: 48px;
 }
 .feature-title{
     color: #272727;
@@ -61,9 +66,97 @@ header{
 }
 .feature-des{
     color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+}
+.feature-card1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 210px;
+    height: 285px;
+    padding-top: 110px;
+    padding-left: 76px;
+    padding-right: 78px;
+}
+.feature-card2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 270px;
+    height: 228px;
+    padding-top: 117px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 51px;
+}
+.feature-card3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 190px;
+    height: 328px;
+    padding-top: 67px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.f-img1{
+    width: 210px;
+    height: 285px;
+}
+.f-img2 {
+    width: 280px;
+    height: 250px;
+}
+.f-img3 {
+    width: 210px;
+    height: 328px;
+}
+.feature-card-container{
+    display: flex;
+    gap: 24px;
+}
+.f1{
+    margin-left: 55px;
+    margin-top: 32px;
+}
+.f2 {
+    margin-top: 60px;
+    margin-left: 70px;
+
+}
+.f3 {
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+/* Delivery Section Style */
+
+.delivery{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-card{
+    display: flex;
+    gap: 100px;
+}
+.delivery{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.delivery-container{
+    display: flex;
+    justify-content: center;
+    padding: 46px 0;
+}
+.g1{
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
 }
