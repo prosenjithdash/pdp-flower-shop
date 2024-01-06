@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);;
+}
+.container{
+    width: 75%;
+    max-width:1440px;
+    margin:0 auto;
+    
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 65px;
+    padding-bottom: 32px;
+    
+}
+.banner-des{
+    color: rgba(39, 39, 39, 0.60);
+    
+        font-family: Lato;
+        font-size: 18px;
+        padding-bottom: 32px;
+        /* 166.667% */
+}
+.btn-primary{
+
+    color: #FFF;
+        
+    font-size: 20px;
+
+    padding: 20px 43px;
+    align-items: flex-start;
+    
+    border-radius: 8px;
+    background: #E55473;
+}
+
