@@ -160,3 +160,219 @@ header{
 .g1{
     text-align: center;
 }
+
+/* Discount section style */
+
+.discount{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.discount-card{
+    /* width: 60%;
+    max-width: 1440px;
+    margin: 0 auto; */
+    margin-left: 250px;
+}
+.discount-box{
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 128px;
+}
+.deal-title{
+    color: #272727;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-bottom: 24px;
+}
+.deal-des{
+    color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+        padding-bottom: 24px;
+}
+.deal-img{
+    width: 318px;
+    height: 420px;
+}
+.deal-btn{
+    text-align: center;
+}
+.off{
+    color: #E55473;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+
+/* Instagram Section Style */
+
+.instagram{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.ins-title{
+    color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-bottom: 24px;
+}
+.ins-des{
+    color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+}
+.ins-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+.ins-container{
+    margin-bottom: 48px;
+}
+.ins-img1 , .ins-img2 , .ins-img3 , .ins-img4{
+    width: 250px;
+    height: 300px;
+}
+
+/* Latest Deals Section */
+
+.latestDeals{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 128px;
+}
+
+.ld-b-img{
+    width: 98%;
+    height: 449px;
+    position: relative;
+}
+.ld-b-title{
+    padding-top: 122px;
+    padding-bottom: 16px;
+    color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+.ld-b-des{
+    padding-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+}
+.email{
+    display: flex;
+    gap: 16px;
+}
+.input{
+    color: rgba(39, 39, 39, 0.60);
+        padding-left: 22px;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    width: 700px;
+        height: 64px;
+        border-radius: 8px;
+            background: #FFF;
+            border: 0;
+       
+}
+.sub{
+    color: #FFF;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: 0;
+}
+.search{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 85px;
+
+}
+
+/* Footer section style */
+footer{
+    background: #111010;
+}
+.footer-conteiner{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.footer-title1{
+    color: #E55473;
+        font-family: Lato;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+.footer-title2 {
+    color: #FFF;
+        font-family: Lato;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+
+.footer-des{
+    color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        padding-bottom: 32px;
+        line-height: 30px;
+        /* 166.667% */
+}
+.footer-title{
+    text-align: center;
+    padding-bottom: 24px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
